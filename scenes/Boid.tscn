@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://7pm0xwkjgxw2"]
+
+[ext_resource type="Script" uid="uid://cancy6yipfm40" path="res://scripts/Boid.cs" id="1_3wvxu"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tbjv5"]
+radius = 8.0
+
+[node name="Boid" type="Area2D"]
+script = ExtResource("1_3wvxu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_tbjv5")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(1, 0, 0, 1)
+polygon = PackedVector2Array(15, 0, -10, -8, -10, 8)
