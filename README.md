@@ -1,4 +1,4 @@
-# Boid Flocking Survival Game
+# Assignment 3
 
 A simple survival game demonstrating Craig Reynolds' Boids flocking algorithm.
 
@@ -79,3 +79,4 @@ steer towards centerOfMass;
 
 - [Boids Algorithm - Wikipedia](https://en.wikipedia.org/wiki/Boids)
 - [Craig Reynolds' Original Paper](http://www.red3d.com/cwr/boids/)
+
